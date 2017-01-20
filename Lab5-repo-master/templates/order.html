@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Страница ученика {{  orders.id }}{% endblock %}
+
+{% block content %}
+
+           <h5>Номер ученика: {{ orders.id }}</h5>
+           <h5>Данные ученика: {{ orders.title }}</h5>
+
+{% endblock %}
